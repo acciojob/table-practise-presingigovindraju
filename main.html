@@ -1,35 +1,47 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<style>
+		table {
+			background-color: yellow;
+			border-collapse: collapse;
+			width: 100%;
+			border: 1px solid black;
+		}
+
+		th, td {
+			border: 1px solid black;
+			padding: 8px;
+			text-align: center;
+		}
+
+		caption {
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+	</style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	
-		<table border="1">
-			<caption>Student Details<caption/>
-			<tr>
-				<th>NAME</th>
-				<th>AGE</th>
-				<th>BRANCH</th>
-			</tr>
-			<tr>
-			  <td>Shaw</td>
-			  <td>20</td>
-			  <td>CSE</td>
-			</tr>
-			<tr>
-				<td>Adil</td>
-				<td>21</td>
-				<td>ECE</td>
-			</tr>
-		</table>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+	<table>
+		<caption>Student Details</caption>
+		<tr>
+			<th>NAME</th>
+			<th>AGE</th>
+			<th>BRANCH</th>
+		</tr>
+		<tr>
+			<td>Shaw</td>
+			<td>20</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>Adil</td>
+			<td>21</td>
+			<td>ECE</td>
+		</tr>
+	</table>
 </body>
 
 </html>
